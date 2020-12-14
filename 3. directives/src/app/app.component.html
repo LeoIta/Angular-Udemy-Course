@@ -13,6 +13,9 @@
       <button class="btn btn-primary"(click)="onClick()">{{display}} details</button>
       <hr><p *ngIf='index<4; else limit'>{{secret}}</p>
       <hr>
+      <!-- to check element and index with ngFor I can use
+      *ngFor="let info of infos; let i = index"
+      -->
       <ul
         *ngFor="let info of infos"
         [ngStyle]="{background:infos.indexOf(info)<4? 'green':'red'}"
