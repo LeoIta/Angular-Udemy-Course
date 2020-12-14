@@ -1,4 +1,5 @@
-Exercise on basic Angular from Udemy course "Angular - The Complete Guide (2020 Edition)"
+<h3>Exercises on basic Angular from Udemy course:<br>
+  "Angular - The Complete Guide (2020 Edition)"</h3>
 
-# basics-assignment-1-start
-# 
+1. basics-assignment-1-start
+2. basics-databinding
